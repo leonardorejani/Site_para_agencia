@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Passion+One:wght@400;700;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rasa:ital,wght@0,300..700;1,300..700&display=swap');
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background: #000; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: #adff2f;
+    border-radius: 5px; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #c2ff65; 
+}
+
+
+a:focus{
+    outline: 0 solid;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+html,
+body{
+    height: 100%;
+    font-family: 'poppins';
+    color: #fff;
+    background-color: #000;
+}
+a{
+    transition: 0.3s;
+    color: #ffffff;
+}
+a:hover{
+    text-decoration: none;
+}
+.section-padding{
+    padding: 80px 0;
+}
+p{
+    color: #969696;
+}
+
+.navbar {
+    backdrop-filter: blur(10px);
+    transition: background-color 0.3s, 
+}
+
+.navbar.scrolled {
+    background-color: black !important;
+}
+
+.navbar.scrolled .navbar-brand,
+.navbar.scrolled .nav > li > a {
+    color: white !important;
+}
+
+
+.header-area{
+    background-image: url(images/1.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.carousel-inner .item{
+    color: #fff;
+    padding: 300px 0;
+    text-align: center;
+}
+
+.custom-style{
+    padding: 10px 0;
+    background-color: transparent;
+    top: 0;
+    border: 0;
+    border-radius: 0;
+    transition: all 1s;
+}
+.fixed-me{
+    background-color: rgba(0,0,0,0.7) !important;
+    padding: 0 !important;
+    margin-bottom: 5px;
+    position: fixed;
+    top: 0;
+    z-index: 888;
+    width: 100%;
+    transition: all 1s;
+}
+
+.navbar-default .navbar-brand{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+.navbar-default .navbar-nav li a{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.navbar-default .navbar-nav  li  a:hover,
+.navbar-default .navbar-nav  li  a:focus{
+    text-decoration: underline;
+    background-color: transparent;
+    
+}
+
+.slider-area{
+    background-image: url('images/canva/fundo.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.slider-area .carousel-inner .item h2{
+    font-size: 35px;
+}
+.slider-area .carousel-inner .item p {
+	font-size: 15px;
+	color: #fff;
+	width: 75%;
+	margin: auto;
+}
+.slider-area .carousel-inner .item a{
+    background: greenyellow;
+    color: #000;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-top: 15px;
+    font-weight: 600;
+}
+
+
+.about-content img {
+    padding-top: 80px;
+	width: 100%;
+	margin-bottom: 5rem;
+}
+.about-content p {
+	line-height: 2;
+}
+
+
+
+.section-header{
+    padding: 30px 0;
+}
+.section-header h2{
+    text-transform: uppercase;
+}
+.single-services i{
+    margin-bottom: 30px;
+    font-size: 50px;
+    color: greenyellow;
+}
+
+.single-services p{
+    color: #969696;
+    line-height: 33px;
+}
+
+.single-services img {
+    width: 40%;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.port-img-area{
+    position: relative;    
+}
+
+.port-img-area:hover .port-text{
+    transform: scale(1);
+}
+.single-portfolio h4{
+    font-size: 25px;
+    margin-top: 25px;
+}
+
+.single-portfolio{
+    margin: 25px 0;
+}
+
+.single-form button {
+	background: greenyellow;
+}
+
+.form-area {
+    background-image: url('images/canva/contato.png');
+    background-size: cover;
+    background-position: center;
+}
+
+
+.footer-area{
+    background: #000000;
+    padding: 30px 0;
+}
+.single-footer p{
+    color: #fff;
+}
+
